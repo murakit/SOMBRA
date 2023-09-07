@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SOMBRA</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styleVideo.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/Logotipo_Blanco.png">
+
+</head>
+
+
+<body> 
+
+<div id="container">
+    <span class="signo">+</span>
+    
+    <video id="myVideo" autoplay loop muted id="myVideo">
+        <source src="videos/ANIMACION_INICIO_FINAL.mp4" type="video/mp4">
+      </video>
+
+
+ <div id="margin-top" class="col-sm-3 col-sm-offset-4"> 
+  <img id="indexlogo"  src="img/LOGO_SOMBRA.png" alt="..."> </div>
+</div>
+
+
+ <script src="js/lib/jquery-3.2.1.js"></script>
+
+      <script>
+
+            document.querySelector('#container').setAttribute("onclick", "location.href='sombra.html'");
+            var audio = new Audio('videos/JITTERS3.mp4');
+            audio.play();
+
+      </script>
+
+</body>
+</html>
+
+
