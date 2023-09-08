@@ -1,5 +1,5 @@
 body {
-    background-image:url('HotelAlbor_03.webp');
+    background-image:url('HotelAlbor_032.png');
     background-size:cover;
     background-attachment: fixed;
     overflow-x:hidden;
@@ -88,10 +88,8 @@ a:hover .btn-link .btn { text-decoration: none }
 #right01 {
    position:absolute;
    margin-top:40%;
-    
    right:0;
    
-
 }
 
 
@@ -132,7 +130,6 @@ a:hover .btn-link .btn { text-decoration: none }
 #logo01 {
     width:100px;
     animation: rotation 6s infinite linear;
-
 }
 
 .navbar-brand {
@@ -141,7 +138,6 @@ a:hover .btn-link .btn { text-decoration: none }
     padding:0;
     font-size: 18px;
     line-height: 20px;
-    margin-left: -3%;
 }
 
 .navbar-toggler:focus,
@@ -149,19 +145,15 @@ a:hover .btn-link .btn { text-decoration: none }
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
-    margin-left: 62%;
+
 }
 
 .navbar-toggler{
-    text-align: right;
-    right:0;
-    margin-left: 62%;
+
 }
 
 .navbar-toggler-icon {
-text-align: right;
-    right:0;
-    
+
 }
 
   #sombramargin {
@@ -299,6 +291,84 @@ h2 {
     background-color: darkgrey;
 }
 
+/*prensa*/
+
+
+.example {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.content {
+  opacity: 0;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #1c87c9;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+ 
+}
+
+.title {
+    margin-top: 200px;
+    text-align: right;
+    margin-right: -60px;
+    
+}
+
+.example .content:hover {
+  opacity: 1;
+    background-color: transparent;
+}
+
+.texto {
+    position:absolute;
+    z-index:99999999999;
+    text-align: right;
+    color:white;
+    font-size:2vw;
+    margin-right:3%;
+    margin-top: -2%
+}
+
+
+.texto2 {
+    position:absolute;
+    z-index:99999999999;
+    text-align: right;
+    color:white;
+    font-size:4vw;
+    margin-right:3%;
+    margin-top: 5%;s
+    font-family: myFirstFont;
+
+}
+
+.texto3 {
+    font-family: mySecondFont;
+    position:absolute;
+    z-index:99999999999;
+    text-align: right;
+    color:white;
+    font-size:1vw;
+    margin-left:20%;
+    margin-top: 17%
+}
+
 @media screen and (min-width: 601px) {
     
 body {
@@ -311,10 +381,17 @@ body {
     
 #right01 {
    position:absolute;
-   top:0%;
+   margin-top:0%;
    right:0;
    
 
+}
+    
+#logo01 {
+    width:100px;
+    animation: rotation 6s infinite linear;
+    margin-left: 20%;
+    margin-top: -4%;
 }
 
     .proyectos {
